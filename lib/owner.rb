@@ -9,7 +9,9 @@ class Owner
     @species = species
   end
 
-  def 
+  def say_species
+    puts "I am human."
+  end
 
 
 end
