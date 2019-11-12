@@ -3,8 +3,7 @@ class Owner
 
   def initialize(species = "human")
     @species = species
-
-
+  
   end
 
 
