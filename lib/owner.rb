@@ -55,6 +55,9 @@ class Owner
     end
   end
 
+  def list_pets
+    self.cats.count
+
   def feed_cats
     self.cats.each {|dog| dog.mood = "happy"}
 
