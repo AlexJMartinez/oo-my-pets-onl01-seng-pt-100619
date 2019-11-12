@@ -5,5 +5,9 @@ class Owner
     @name = name
   end
 
+  def species(species = "human")
+    @species = species
+  end
+
 
 end
