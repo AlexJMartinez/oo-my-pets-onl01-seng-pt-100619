@@ -48,6 +48,7 @@ class Owner
   end
 
   def sell_pets
+    all_pets = self.dogs + self.cats
   end
 
   def feed_cats
